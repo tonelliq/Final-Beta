@@ -2157,9 +2157,26 @@ if (mode == 'xiv' && count == 1) {
       textAlign(CENTER, CENTER)
       noStroke()
       fill(color3)
-      text('get out of here.', 0, 0, width, height)
+      text('get out', 0, 0, width, height)
+}
 
-} else if (mode == 'xiv' && count == 2) {
+
+if (mode == 'xiv' && count == 2) {
+
+      stroke(0)
+      strokeWeight(2)
+      fill(color2)
+      rect(0, 0, width, height)
+
+      textSize(96)
+      textFont(impact)
+      textAlign(CENTER, CENTER)
+      noStroke()
+      fill(color3)
+      text(glitch + ' ' + glitch2 + ' ' + glitch3 + ' ' + glitch4 + ' ' + glitch + ' ' + glitch2 + ' ' + glitch3 + ' ' + glitch4 + ' ' + glitch + ' ' + glitch2 + ' ' + glitch3 + ' ' + glitch4 + ' ' + glitch + ' ' + glitch2 + ' ' + glitch3 + ' ' + glitch4 + ' ' + glitch + ' ' + glitch2 + ' ' + glitch3 + ' ' + glitch4, 0, 0, width, height)
+}
+
+ if (mode == 'xiv' && count == 3) {
 
     mode = 'iv'
     count = 1
